@@ -1,0 +1,273 @@
+body {
+    line-height: 2;
+}
+
+.colored-section {
+    /* width: 30%; */
+    /* height: 700px; */
+    /* margin: auto; */
+    background-color: #f6f6f6;
+}
+
+/* .white-section { */
+/* width: 30%; */
+/* height: 700px; */
+/* margin: auto; */
+/* } */
+
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+
+/****************** NavBar ******************/
+
+.main-nav {
+    background-color: rgba(21, 31, 33, 0.5);
+    border-bottom: 1px solid #dedede;
+    color: whitesmoke;
+    display: flex;
+    font-weight: 100;
+    justify-content: space-between;
+    padding: 0px 25px;
+    position: fixed;
+    width: 100%;
+    text-transform: uppercase;
+    top: 0;
+    z-index: 1000;
+}
+
+
+/************************ General ***********************/
+
+a:link,
+a:visited {
+    color: inherit;
+    text-decoration: none;
+}
+
+#tittle,
+#about-me-text {
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
+#tittle,
+#about-me,
+#projects,
+#skills,
+#work-with-me,
+#contact-me {
+    padding: 3em;
+    text-align: center;
+}
+
+/************************ Header ************************/
+
+
+.jau-logo-pt1 {
+    color: #304035;
+    font-size: 5em;
+
+}
+
+.jau-logo-pt2 {
+    color: white;
+}
+
+.main-header {
+    height: 860px;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(70, 121, 9, 1) 0%, rgba(184, 194, 19, 1) 0%, rgba(49, 62, 45, 1) 100%, rgba(0, 212, 255, 1) 100%);
+    /* margin: auto; */
+}
+
+#tittle-content {
+    margin-top: 15%;
+}
+
+
+/***************************** About Me ****************************/
+
+.about-me-hr {
+    width: 40%;
+    margin-left: 0;
+}
+
+#about-me {
+    position: relative;
+}
+
+#about-me-img {
+    background-color: cornsilk;
+}
+
+#about-me-left {
+    text-align: left;
+}
+
+/***************************** Projects ****************************/
+
+.projects-hr {
+    width: 16%;
+    margin-left: center;
+}
+
+#projects {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    position: relative;
+}
+
+
+.figure {
+    width: 250px;
+    height: 200px;
+}
+
+/***************************** Skills ****************************/
+
+.skills-hr {
+    width: 40%;
+    margin-left: center;
+}
+
+#skills {
+    width: 100%;
+    margin: auto;
+    background-color: #f6f6f6;
+    position: relative;
+}
+
+
+
+/******************************WorkWithMe****************************/
+
+#work-with-me {
+    position: relative;
+}
+
+
+.wwm-hr {
+    width: 80%;
+    margin-left: center;
+}
+
+
+
+/***************************** Footer ******************************/
+
+
+#contact-me {
+    color: white;
+    height: 700px;
+    background-color: #484848;
+    position: relative;
+}
+
+
+.main-footer-content {
+    position: absolute;
+    display: inline-block;
+    display: block;
+    width: 50%;
+    height: 100%;
+    text-align: left;
+    padding-top: 80px;
+    padding-left: 80px;
+}
+
+.address {
+    position: absolute;
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    padding-top: 80px;
+
+}
+
+.address-hr {
+    width: 20%;
+    margin-left: center;
+    background-color: whitesmoke;
+}
+
+
+#contact-me,
+.address {
+    text-align: center;
+}
+
+.contact-me-hr {
+    width: 30%;
+    margin-left: 0;
+    background-color: whitesmoke;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+/********************************* Responsive ************************/
+
+
+@media only screen and (max-width: 600px) {
+
+    #about-me,
+    #projects,
+    #skills,
+    #work-with-me,
+    #contact-me {
+        width: 100%;
+    }
+
+
+    .jau-logo-pt1 {
+        color: white;
+    }
+
+    /********** Contact Me (@Media 600px) *************/
+
+    #contact-me {
+        height: 1100px;
+    }
+
+    .main-footer-content {
+        position: relative;
+        width: 100%;
+        text-align: center;
+        display: block;
+    }
+
+    .address {
+        position: relative;
+        width: 100%;
+        display: block;
+
+    }
+
+
+
+}
+
+@media only screen and (max-width: 400px) {
+
+    #about-me,
+    #projects,
+    #skills,
+    #work-with-me,
+    #contact-me {
+        width: 100%;
+    }
+
+    .jau-logo-pt1 {
+        color: blue;
+    }
+
+}
+
+.col2 {
+    position: static;
+}
