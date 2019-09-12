@@ -107,6 +107,10 @@ a:visited {
     text-align: left;
 }
 
+.main-button {
+    padding: 35px;
+}
+
 /***************************** Projects ****************************/
 
 .projects-hr {
@@ -171,7 +175,6 @@ a:visited {
 
 .main-footer-content {
     position: absolute;
-    display: inline-block;
     display: block;
     width: 50%;
     height: 100%;
@@ -196,10 +199,6 @@ a:visited {
 }
 
 
-#contact-me,
-.address {
-    text-align: center;
-}
 
 .contact-me-hr {
     width: 30%;
@@ -224,9 +223,17 @@ a:visited {
         width: 100%;
     }
 
+    /********** Projects (@Media 600px) *************/
 
-    .jau-logo-pt1 {
-        color: white;
+    .projects-hr {
+        width: 50%;
+    }
+
+
+    /********** Skills (@Media 600px) *************/
+
+    .skills-hr {
+        width: 70%;
     }
 
     /********** Contact Me (@Media 600px) *************/
@@ -238,15 +245,24 @@ a:visited {
     .main-footer-content {
         position: relative;
         width: 100%;
+        padding-left: 0px;
         text-align: center;
-        display: block;
+        /* display: block; */
+    }
+
+    .contact-me-hr,
+    .address-hr {
+        text-align: center;
+        margin: 0 auto;
+        width: 40%;
+        background-color: whitesmoke;
+
     }
 
     .address {
         position: relative;
         width: 100%;
         display: block;
-
     }
 
 
