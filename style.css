@@ -222,16 +222,29 @@ a:visited {
     #contact-me {
         width: 100%;
     }
-/********** About Me (@Media 600px) ************/
 
-#about-me-left {
-    text-align: center;
-}
+
+    /********** About Me (@Media 600px) ************/
+
+    #about-me-left {
+        text-align: center;
+    }
+
+    
+    .about-me-hr {
+        text-align: center;
+        margin: 0 auto;
+        width: 45%;
+        background-color: whitesmoke;
+    }
+
+    
+
 
     /********** Projects (@Media 600px) *************/
 
     .projects-hr {
-        width: 50%;
+        width: 30%;
     }
 
 
@@ -249,9 +262,10 @@ a:visited {
     #projects {
         padding: 3em 12px;
     }
-#projects p {
-    text-align: center;
-}
+
+    #projects p {
+        text-align: center;
+    }
 
     /********** Skills (@Media 600px) *************/
 
@@ -273,19 +287,19 @@ a:visited {
         /* display: block; */
     }
 
+  
+    .address {
+        position: relative;
+        width: 100%;
+        display: block;
+    }
+
     .contact-me-hr,
     .address-hr {
         text-align: center;
         margin: 0 auto;
         width: 40%;
         background-color: whitesmoke;
-
-    }
-
-    .address {
-        position: relative;
-        width: 100%;
-        display: block;
     }
 
 
@@ -302,12 +316,35 @@ a:visited {
         width: 100%;
     }
 
-    .jau-logo-pt1 {
-        color: blue;
+    /* General */
+
+
+    #about-me, #skills, #work-with-me .container-fluid {
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
     }
 
+
+    /* Header */
+
+h2 .jau-logo-pt1 {
+    text-align: center;
 }
 
-.col2 {
-    position: static;
+#tittle .container-fluid {
+    padding-left: 0%;
 }
+
+/* Footer */
+
+#contact-me {
+    height: 1600px;
+}
+
+
+}
+
+/* .col2 {
+    position: static;
+} */
