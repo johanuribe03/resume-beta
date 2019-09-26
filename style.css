@@ -103,6 +103,7 @@ a:visited {
     height: 300px;
     width: 300px;
     margin: auto;
+    
 }
 
 #about-me-left {
@@ -111,6 +112,7 @@ a:visited {
 
 .main-button {
     margin-top: 50px;
+    
 }
 
 /***************************** Projects ****************************/
