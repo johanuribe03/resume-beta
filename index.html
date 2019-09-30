@@ -13,10 +13,12 @@
     <!-- CSS Stylesheets -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <!-- FontAwesome-->
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <!-- FontAwesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
         integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <!-- Wow link -->
+    <link rel="stylesheet" href="CSS/animate.css">
 
 <body>
 
@@ -58,7 +60,7 @@
         <div class="container-fluid">
             <div class="row" id="tittle-content">
 
-                <div class=col-lg-6>
+                <div class="col-lg-6 encabezado longFadeIn">
                     <h2 class=jau-logo-pt1>Johan Uribe
                         <h2 class=jau-logo-pt2>Front End Developer.</h2>
                     </h2>
@@ -82,22 +84,29 @@
         <section class="colored-section" id="about-me">
             <div class="container-fluid">
                 <div class="row">
+
                     <div class="col-lg-6" id="about-me-left">
-                        <h2>Who am I...</h2>
-                        <hr class="about-me-hr">
-                        </br>
-                        <p class="hello-p">Hello there! My name is Johan and I'm a Front End Developer</p>
-                        <p> I enjoy investing my free time increasing my knowledge of Web Development, building new
-                            and
-                            challenging projects.</p>
-                        <p>This has really become a passion and I'm working towards improve my skills every time!</p>
-                        <a href="#contact-me"><button type="button"
-                                class="btn btn-dark btn-lg download-button main-button">Find out more</button></a>
+                        <div class="wow fadeInLeft">
+                            <h2>Who am I...</h2>
+                            <hr class="about-me-hr">
+                            </br>
+                            <p class="hello-p">Hello there! My name is Johan and I'm a Front End Developer</p>
+                            <p> I enjoy investing my free time increasing my knowledge of Web Development, building new
+                                and
+                                challenging projects.</p>
+                            <p>This has really become a passion and I'm working towards improve my skills every time!
+                            </p>
+                            <a href="#contact-me"><button type="button"
+                                    class="btn btn-dark btn-lg download-button main-button">Find out more</button></a>
+                        </div>
                     </div>
-                    <img src="images/data.png" class="" id=about-me-img>
+                    <div class="col-lg-6">
+                        <div class="wow fadeInRight">
+                            <img src="images/data.png" class="" id=about-me-img>
 
-                    </img>
-
+                            </img>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -107,23 +116,26 @@
         <section class=white-section id='projects'>
             <div class="container-fluid">
                 <div id="projects-div">
+                    <div class="wow fadeInLeft" data-wow-duration="2s">
                     <h2>PROJECTS</h2>
                     <hr class="projects-hr">
                     </br>
                     <p>Here are some of my latest projects.</p>
+                </div>
                     <div class="row">
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 wow fadeIn" data-wow-duration="2s">
                             <figure class="figure">
                                 <a href="https://johanuribe03.github.io/pig-dice-game/">
                                     <img src="images/pigDiceGame.png" class="figure-img img-fluid rounded"
                                         alt="Pig Dice Game"></a>
                                 <figcaption class="figure-caption text-justify">
-                                    <p>Javascript application of the Pig Dice Game using DOM manipulation (HTML, CSS, JavaScript)
+                                    <p>Javascript application of the Pig Dice Game using DOM manipulation (HTML, CSS,
+                                        JavaScript)
                                     </p>
                                 </figcaption>
                             </figure>
                         </div>
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 wow fadeIn" data-wow-duration="2s">
                             <figure class="figure">
                                 <a href="https://johanuribe03.github.io/ItemLister/">
                                     <img src="images/itemLister.png" class="figure-img img-fluid rounded"
@@ -134,33 +146,36 @@
                                 </figcaption>
                             </figure>
                         </div>
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 wow fadeIn" data-wow-duration="2s">
                             <figure class="figure">
                                 <a href="https://codepen.io/civilian03/pen/axgGwm">
                                     <img src="images/products.png" class="figure-img img-fluid rounded"
                                         alt="Barber Shop"></a>
                                 <figcaption class="figure-caption text-justify">
-                                    <p>A user interface for a product list accessing data using a variable. (HTML, CSS, JavaScript)</p>
+                                    <p>A user interface for a product list accessing data using a variable. (HTML, CSS,
+                                        JavaScript)</p>
                                 </figcaption>
                             </figure>
                         </div>
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 wow fadeIn" data-wow-duration="2s">
                             <figure class="figure">
                                 <a href="https://johanuribe03.github.io/tindog/">
                                     <img src="images/tinDog.png" class="figure-img img-fluid rounded" alt="TinDog"></a>
                                 <figcaption class="figure-caption text-justify">
-                                    <p>Dog encounter website, with striking design, updated structure and responsive layout.
-                                            (HTML, CSS, Bootstrap)</p>
+                                    <p>Dog encounter website, with striking design, updated structure and responsive
+                                        layout.
+                                        (HTML, CSS, Bootstrap)</p>
                                 </figcaption>
                             </figure>
                         </div>
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 wow fadeIn" data-wow-duration="2s">
                             <figure class="figure">
                                 <a href="https://johanuribe03.github.io/resume-beta-2/">
                                     <img src="images/resume.png" class="figure-img img-fluid rounded"
                                         alt="Basic Resume"></a>
                                 <figcaption class="figure-caption text-justify">
-                                    <p>Designed a basic resume website applying skills while learning, contemporary design. (HTML, CSS)</p>
+                                    <p>Designed a basic resume website applying skills while learning, contemporary
+                                        design. (HTML, CSS)</p>
                                 </figcaption>
                             </figure>
                         </div>
@@ -174,6 +189,7 @@
 
         <section class="colored-section" id='skills'>
             <div class="container-fluid">
+                <div class="wow zoomIn">
 
                 <h2>SKILLS ADQUIRED WHILE STUDYING</h2>
                 <hr class="skills-hr">
@@ -185,12 +201,13 @@
                 <p>Build quality web pages.</p>
                 <p>Test a website and find bugs and technical problems.</p>
                 <p>Develop cross-browser and cross-platform compatible website solutions.</p>
-
+            </div>
         </section>
 
 
         <section class="white-section" id='work-with-me'>
             <div class="container-fluid">
+                <div class="wow fadeInRight">
                 <h2>Why work with me?</h2>
                 <hr class="wwm-hr">
                 <p>Attentive listening and effective oral communication skills.</p>
@@ -199,6 +216,7 @@
                 <p>Critical Thinker.</p>
                 <p>Ability to quickly create and apply ideas and solutions.</p>
             </div>
+            </div>
         </section>
 
     </main>
@@ -206,16 +224,18 @@
 
     <footer id='contact-me'>
 
-        <div class="main-footer-container">
+        <div class="main-footer-container wow fadeInUpBig" data-wow-duration="3s">
 
             <div class='main-footer-content'>
-                <header>
-                    <h2>About
-                        <span class="uppercase">johan</span>
-                    </h2>
-                    <hr class="contact-me-hr">
-                    </br>
-                </header>
+                
+                    <header>
+                        <h2>About
+                            <span class="uppercase">johan</span>
+                        </h2>
+                        <hr class="contact-me-hr">
+                        </br>
+                    </header>
+                
                 <p>I’m an energetic and imaginative Front End Web Developer able to work beside other talented IT
                     professionals in creating websites to the very highest standards. Passionate about Front End Web
                     Development and Web Applications. Regular student of Full Stack Web Developer courses and
@@ -253,6 +273,9 @@
     <!--End of Footer-->
 
     <script src="JS/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
     <script src='main.js'></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
