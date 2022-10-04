@@ -253,6 +253,10 @@ a:visited {
         /* align-items: center; */
         /* margin: 0 auto; */
     }
+    .col-lg-4.wow.fadeIn {
+        width: 100%;
+        max-width: 100%;
+    }
 }
 
 
